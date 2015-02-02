@@ -1,0 +1,47 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome To TeamWork</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Css/login_screen_style.css" />
+        <script src="jquery/jquery.js"></script>
+        <script src="js_scripts/login_screen_manager.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="inline_img_1"></div>
+            <div id="inline_img_2"></div>
+        </header>
+        <div id="main_container"  class="big_padding">
+            <div id="center_container" >
+                <p id="session_exists">${session_exists}</p>
+                <div id="welcome_panel">
+                    <p class="largeText">Welcome To TeamWork</p><br/>
+                    <p>The online software for project managment and group communication in one place</p>
+                    <p>Sing Up for a new account and organise your projects,
+                        or talk with your team members about your tasks.
+                    </p>
+                </div>
+                <div id="login_panel">
+                    <p class="largeText">Log In</p>
+                    <p class="error_message">${error_message}</p>
+                    <form id="login_form" method="post" action="log_in">
+                        Username : <br/>
+                        <input type="text" name="username" />
+                        <br/><br/>
+                        Password : <br/>
+                        <input type="password" name="password" />
+                        <br/> <br/>
+                        <input id="signInButton" type="submit" value="Sign In" />
+                    </form>
+                    <p>Don't have an account?<br/> Sign Up <a id="new_account_link" href="account_screen.html">Here</a> </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Powered By John Argyroulis / WWW Technologies 2014-2015 / University of Thessaly</p>
+        </footer>
+    </body>
+</html>

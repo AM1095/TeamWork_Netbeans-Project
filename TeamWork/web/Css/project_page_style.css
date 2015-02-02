@@ -1,0 +1,454 @@
+p,h1,h1,h2,h4,h5,h6,body,article,section,header,ul,li,a{
+    margin:0;
+    padding:0;
+}
+*{
+   font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+
+body{
+    height:100%;
+    width:100%;
+    background-color:#cccccc;
+    background:url(../Images/desk_dark2.jpg);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+/* top styles ====================================== */
+header{
+    background-color:#008844;
+    height:45px;
+    position:relative;
+    box-shadow: 0px 1px 3px black;
+    z-index:1;
+    width:100%;
+}
+#inline_img_1{
+    float:left;
+    margin-left:20px;
+    margin-top:9px;
+    width:28px;
+    height:28px;
+    background:url('../Images/Logo.png');
+}
+#inline_img_2{
+    float:left;
+    width:142px;
+    height:28px;
+    margin-left:5px;
+    margin-top:9px;
+    background:url('../Images/appName.png');
+}
+#logo{
+    margin-left:20px;
+    margin-top:10px;
+    color:white;
+    float:left;
+}
+
+#top_right_options{
+   margin-top:9px;
+   float:right;
+   margin-right:50px;
+   list-style-type: none;
+   padding:0;
+}
+#top_right_options li{
+    display : inline-block;
+}
+
+#user_settings{
+    margin-top:10px;
+    margin-left:-5px;
+    display:block;
+    width:130px;
+    position:absolute;
+    z-index:2;
+    background-color:white;
+    box-shadow: 0px 0px 6px #00AA55;
+    border-radius:5px;
+    padding:5px;
+}
+#top_right_options ul li{
+    display:block;
+}
+
+.topRightLink{
+    color:white;
+    margin-left: 20px;
+    text-decoration:none;
+    font-size:11pt;
+}
+.topRightLink:hover{
+    color:white;
+}
+.topRightSubLink{
+    color:black;
+    text-decoration:none;
+    height:25px;
+    display:block;
+    padding:5px;
+    text-align:center;
+    font-size:11pt;
+    box-shadow: 0px 1px 0px #BBBBBB;
+}
+
+.topRightSubLink:hover{
+    color:white;
+    background-color:#00AA55;
+}
+
+.chat_button{
+    margin-left: 15px;
+    text-decoration:none;
+    background:url('../Images/chat_icon_small.png');
+    background-repeat:no-repeat;
+    display:block;
+    width:30px;
+    height:30px;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.notifications_button{
+    margin-left: 15px;
+    text-decoration:none;
+    background:url('../Images/notifications_icon_small.png');
+    background-repeat:no-repeat;
+    display:block;
+    width:30px;
+    height:30px;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.settings_button{
+    margin-left: 15px;
+    margin-top:5px;
+    text-decoration:none;
+    /*
+    background:url('../Images/settings_icon_small.png');
+    background-repeat:no-repeat; */
+    display:block;
+    /*width:30px;
+    height:30px;
+     text-indent:100%; */
+    color:white;
+    /*white-space:nowrap;*/
+    overflow:hidden;
+}
+/* Main section ======================================= */
+#subHeaderContainer{  
+}
+
+history_box{
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:5px;
+    background-color:#dddddd;
+    color:#333333;
+    display:block;
+    border-radius:10px;
+}
+.history_box p{
+    padding:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */      
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+}
+
+.small_button{
+    margin-top:5px;
+    margin-right:10px;
+    background-color:#0faf1e;
+    color:white;
+    border-style:none;
+    outline:none;
+    padding:7px;
+    width:80px;
+    font-size:11pt;
+    border-radius:3px;
+}
+.small_button:hover{
+    background-color:#00AA55;
+}
+
+/*Left side =============================================== */
+#left_panel{
+    background-color:#333333;
+    width: 170px;
+    float:left;
+    overflow:hidden;
+}
+#profile_small_screen{
+    width:170px;
+    height:150px;
+}
+.profile_text{
+    color:#00FF88;
+    text-align:left;
+    padding:10px;
+    padding-top:20px;
+    font-size:12pt;
+}
+
+#left_panel_list{
+    margin:0;
+    padding:0px;
+    list-style-type:none;
+    display:block;
+    background-color:#444444;
+}
+#left_panel_list li{
+    display:block;
+}
+
+.left_panel_btn{
+    display:block;
+    text-decoration:none;
+    background-color:#555555;
+    color:#eeeeee;
+    padding-top:20px;
+    height:40px;
+    text-align:center;
+    font-size:12pt;
+    margin-bottom:1px;
+}
+
+.left_panel_btn:hover{
+    background-color:#008844;
+    color:#ffffff;
+}
+
+.button_list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.buttons_title{
+    color:white;
+    display:block;
+    height:30px;
+    background-color:#008844;
+    padding-top:15px;
+    font-size: 14pt;
+    padding-bottom:10px;
+    text-decoration: none;
+    text-align:center;
+    box-shadow: 0px 1px 0px #111111;
+    margin-bottom:1px;
+}
+.buttons_title:hover{
+    background-color:#00AA55;
+}
+
+.button_list li ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.button_link{
+    text-decoration: none;
+    text-align: center;
+    color:#DDDDDD;
+    background-color:#444444;
+    display:block;
+    width:100%;
+    height:35px;
+    padding-top:15px;
+    font-size: 11pt;
+    box-shadow: 0px 1px 0px #111111;
+    margin-bottom:1px;
+}
+
+.button_link:hover{
+    background-color:#00AA55;
+    color:white;
+}
+
+/* Right Side =============================================== */
+#monitors_screen{
+    margin-left:170px;
+    position:absolute;
+/*    background:url("../Images/desk_dark2.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%; */
+    overflow:hidden;
+}
+#hide_scrollbar{
+    overflow-y:scroll;
+}
+
+.monitor{
+    float:left;
+    position:relative;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:550px;
+    height:530px;
+    border-radius:10px;
+    background-color:#dddddd;
+    box-shadow: 0px 0px 10px #222222;
+}
+
+.monitor:hover{
+    box-shadow: 0px 0px 10px #0faf1e ;
+}
+
+.monitor_content{
+    padding-top:10px;
+    width:530px;
+    height:400px;
+    margin-top:-8px;
+    margin-left:10px;
+    background-color:#ffffff;
+    border-radius:5px;
+    border-width:2px;
+    position:relative;
+}
+
+.monitor_title{
+    padding:0;
+    margin-left:20px;
+    margin-top:20px;
+    font-size:14pt;
+    margin-bottom:20px;
+}
+
+.monitor_tab_list{
+    list-style-type: none;
+    display:block;
+    width:530px;
+    height:50px;
+    margin:0;
+    padding:0;
+    margin-left:10px;
+    border-radius:5px;
+    background-color:#008844;
+}
+
+.monitor_tab_list li{
+    display:inline-block;
+}
+.monitor_tab{
+    margin-top:10px;
+    margin-right:0;
+    margin-left:3px;
+    padding:10px;
+    text-decoration:none;
+    display:block;
+    height:20px;
+    color:white;
+    background-color:#0faf1e;
+    border-radius:5px;
+    font-size:11pt;
+}
+
+.monitor_tab_first{
+    margin-top:10px;
+    margin-right:0;
+    margin-left:10px;
+    padding:10px;
+    text-decoration:none;
+    display:block;
+    height:20px;
+    color:white;
+    background-color:#0faf1e;
+    border-radius:5px;
+    font-size:11pt;
+}
+
+.monitor_tab_selected{
+    margin-top:10px;
+    margin-left:3px;
+    padding:10px;
+    text-decoration:none;
+    display:block;
+    height:20px;
+    color:#222222;
+    background-color:#ffffff;
+    border-radius:5px;
+    font-size:11pt;
+}
+
+.monitor_tab_first_selected{
+    margin-top:10px;
+    margin-left:10px;
+    padding:10px;
+    text-decoration:none;
+    display:block;
+    height:20px;
+    color:#222222;
+    background-color:#ffffff;
+    border-radius:5px;
+    font-size:11pt;
+}
+
+form{
+    padding:20px;
+}
+
+input{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#milestone_name{
+    width:280px;
+    height:20px;
+    font-size:11pt;
+}
+textarea{
+    margin-top:10px;
+    resize:none;
+    width:380px;
+    height:50px;
+    font-size:12pt;
+}
+
+.big_description{
+    margin-top:10px;
+    resize:none;
+    width:480px;
+    height:150px;
+    font-size:12pt;
+}
+
+
+.num_input{
+    width:50px;
+    height:20px;
+}
+
+.button2{
+    margin-top:5px;
+    margin-right:10px;
+    background-color:#0faf1e;
+    color:white;
+    border-style:none;
+    outline:none;
+    padding:7px;
+    width:80px;
+    font-size:11pt;
+    border-radius:3px;
+}
+.button2:hover{
+    background-color:#00AA55;
+}
+
+.history{
+    margin-top:10px;
+    margin-left:10px;
+    width:510px;
+    height:380px;
+    overflow-y:scroll;
+}

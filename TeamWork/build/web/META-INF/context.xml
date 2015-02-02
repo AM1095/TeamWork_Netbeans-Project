@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/TeamWork">
+    <Resource name="jdbc/teamwork_database" auth="Container" type="javax.sql.DataSource"
+               maxActive="-1" maxIdle="-1" maxWait="-1"
+               username="root" password="j@database8990" 
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/teamwork_database"/>
+    <Manager pathname="" />
+</Context>

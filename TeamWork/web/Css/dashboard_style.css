@@ -1,0 +1,490 @@
+/* initialize parameters */
+p,h1,h1,h2,h4,h5,h6,body,article,section,header,ul{
+    margin:0;
+    padding:0;
+}
+*{
+   font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+
+body{
+   
+    height:100%;
+    width:100%;
+    background-color:#eeeeee;
+    overflow-x:hidden;
+}
+
+header{
+    background-color:#008844;
+    height:45px;
+    position:relative;
+    box-shadow: 0px 1px 3px black;
+    z-index:1;
+    width:100%;
+}
+#inline_img_1{
+    float:left;
+    margin-left:20px;
+    margin-top:9px;
+    width:28px;
+    height:28px;
+    background:url('../Images/Logo.png');
+}
+#inline_img_2{
+    float:left;
+    width:142px;
+    height:28px;
+    margin-left:5px;
+    margin-top:9px;
+    background:url('../Images/appName.png');
+}
+
+#logo{
+    margin-left:20px;
+    margin-top:10px;
+    color:white;
+    float:left;
+}
+
+#log_out_btn{
+    text-decoration:none;
+    float:right;
+    margin-top:10px;
+    margin-right:50px;
+    color:white;
+    font-size:12pt;
+}
+
+/* ========================================================= */
+#main_container{
+    width:100%;
+    height:100%;
+}
+
+#options{
+    width: 230px;
+    height:100%;
+    float:left;
+    background-color:#666666;
+    overflow:hidden;
+    background-size: 100% 100%;
+}
+
+#options_list{
+    margin-left:30px;
+    width:240px;
+    list-style-type: none;
+    padding-top:40px;
+    padding-left:40px;
+    margin-top:30px;
+    background-color:#444444;
+    height:100%;
+    border-radius:10px;
+    box-shadow: -5px 5px 10px #222222;
+}
+
+.block_link{
+    display:block;
+    margin-left:10px;
+    margin-bottom:10px; 
+    width:160px;
+    height:35px;
+    padding-top:15px;
+    text-align:center;
+    color:#ffffff;
+    font-size:12pt;
+    text-decoration: none;
+    background-color:#008844;
+    border-radius:5px;
+    box-shadow: -2px 2px 2px #222222;
+}
+
+.block_link_selected{
+    display:block;
+    width:180px;
+    margin-left:-10px;
+    margin-bottom:10px;   
+    height:40px;
+    padding-top:15px;
+    text-align:center;
+    color:#333333;
+    font-size:14pt;
+    text-decoration:none;
+    background-color:#eeeeee;
+    border-radius:5px;
+    box-shadow: -2px 2px 2px #222222;
+}
+
+#error_panel{
+    position:absolute;
+    margin-left:230px;
+    color:red;
+}
+
+/* The Tabs ============================================================== */
+#welcome_text_container{
+    position:absolute;
+    margin-left:250px;
+    padding:15px;
+    padding-top:20px;
+    padding-left:40px;
+    height:50px;
+    box-shadow: 0px 1px 0px #AAAAAA;
+}
+
+#welcome_text{
+    color:#0faf1e;
+    font-size:16pt;
+    margin-top:10px;
+}
+
+/* Projects Tab ========================================================================= */
+#projects_tab{
+    position:absolute;
+    margin-left:230px;
+    margin-top:100px;
+    overflow:hidden;
+}
+
+.hide_scroll{
+    overflow-y: scroll;
+    height:100%;
+}
+
+
+.large_text{
+    color:#444444;
+    font-size:14pt;
+}
+.project_box{
+    margin-top:5px;
+    margin-bottom:5px;
+    padding:5px;
+    background-color:#DDDDDD;
+    color:#333333;
+    display:block;
+    border-radius:5px;
+}
+.project_box p{
+    margin-top:5px;
+    margin-bottom:5px;
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */      
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+}
+
+#manager_projects_board{
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color:white;
+    padding:20px;
+    border-radius:5px;
+    box-shadow: -1px 1px 4px #888888;
+}
+
+#member_projects_board{
+    float:left;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color:white;
+    padding:20px;
+    border-radius:5px;
+    box-shadow: -1px 1px 4px #888888;
+}
+
+.button{
+    margin-top:30px;
+    width:80px;
+    height:35px;
+    color:white;
+    background-color:#0faf1e;
+    font-size:11pt;
+    border-style: none;
+    border-radius:5px;
+}
+.button:hover{
+    background-color: #00AA55;
+}
+.button:focus{
+    background-color: #00AA55;
+    border-style:none;
+    outline:none;
+}
+.button:active{
+    background-color: #00AA55;
+    border-style:none;
+    outline:none;
+}
+
+.button2{
+    margin-top:5px;
+    margin-right:10px;
+    background-color:#0faf1e;
+    color:white;
+    border-style:none;
+    outline:none;
+    padding:7px;
+    width:80px;
+    font-size:11pt;
+    border-radius:3px;
+}
+.button2:hover{
+    background-color:#00AA55;
+}
+
+.open_mp_button{
+    margin-top:5px;
+    margin-right:10px;
+    background-color:#0faf1e;
+    color:white;
+    border-style:none;
+    outline:none;
+    padding:7px;
+    width:80px;
+    font-size:11pt;
+    border-radius:3px;
+}
+.open_mp_button:hover{
+    background-color:#00AA55;
+}
+
+.delete_mp_button{
+    margin-top:5px;
+    margin-right:10px;
+    background-color:#0faf1e;
+    color:white;
+    border-style:none;
+    outline:none;
+    padding:7px;
+    width:80px;
+    font-size:11pt;
+    border-radius:3px;
+}
+.delete_mp_button:hover{
+    background-color:#00AA55;
+}
+
+.open_jp_button{
+    margin-top:5px;
+    margin-right:10px;
+    background-color:#0faf1e;
+    color:white;
+    border-style:none;
+    outline:none;
+    padding:7px;
+    width:80px;
+    font-size:11pt;
+    border-radius:3px;
+}
+.open_jp_button:hover{
+    background-color:#00AA55;
+}
+
+.leave_jp_button{
+    margin-top:5px;
+    margin-right:10px;
+    background-color:#0faf1e;
+    color:white;
+    border-style:none;
+    outline:none;
+    padding:7px;
+    width:80px;
+    font-size:11pt;
+    border-radius:3px;
+}
+.leave_jp_button:hover{
+    background-color:#00AA55;
+}
+
+#project_history{
+    margin-top:40px;
+    margin-left:0px;
+    overflow-y:scroll;
+    height:340px;
+}
+
+#joined_project_history{
+    margin-top:40px;
+    margin-left:0px;
+    overflow-y:scroll;
+    height:340px;
+}
+
+/* Account Settings ======================================================================== */
+
+#account_settings_tab{
+    margin-left:230px;
+    margin-top:100px;
+    overflow:hidden;
+    width:800px;
+    height:800px;
+    position:absolute;
+}
+#ac_settings_scroll{
+    overflow-y:scroll;
+    width:870px;
+    height:100%;
+    position:relative;
+}
+#ac_settings_panel{
+    margin-top:40px;
+    margin-left:40px;
+    height:450px;
+    width:550px;
+    padding:20px;
+    background-color:white;
+    box-shadow: -1px 1px 2px 1px #aaaaaa;
+    float:left;
+    border-radius:10px;
+}
+#ac_settings_panel p,td{
+    margin-top:5px;
+    padding:10px;  
+}
+
+#left_ac_panel{
+    float:left;
+    margin-right:20px;
+    height:500px;
+    width:400px;
+}
+
+table{
+    padding:20px;
+}
+
+.submit_button{
+    width:100px;
+    height:40px;
+    background-color:#008844;
+    color:white;
+    font-size:12pt;
+    border-style:none;
+}
+.submit_button:hover{
+    background-color:#00AA55;
+    color:white;
+}
+
+.small_button{
+    margin-top:5px;
+    margin-right:10px;
+    background-color:#0faf1e;
+    color:white;
+    border-style:none;
+    outline:none;
+    padding:7px;
+    width:80px;
+    font-size:11pt;
+    border-radius:3px;
+}
+.small_button:hover{
+    background-color:#00AA55;
+}
+
+/* Project Settings ========================================================================== */ 
+#project_create_tab{
+    overflow:hidden;
+    position:absolute;
+    margin-left:230px;
+    margin-top:80px;
+}
+
+#new_project_panel{
+    margin-top:40px;
+    margin-left:40px;
+    height:500px;
+    width:500px;
+    padding:20px;
+    border-radius:5px;
+    background-color:white;
+    box-shadow: -1px 1px 6px #aaaaaa;
+    float:left;
+}
+
+#new_project_form{
+    margin-top:50px;
+    margin-left:20px;
+}
+#n_proj_name{
+    width:250px;
+    height:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:11pt;
+}
+#n_proj_description{
+    width:250px;
+    height:50px;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:11pt;
+    resize:none;
+}
+#n_proj_btn{
+    width:100px;
+    height:40px;
+}
+/* invitations tab =========================================================== */
+#invitations_tab{
+    margin-left:230px;
+    margin-top:100px;
+    overflow:hidden;
+    width:800px;
+    height:800px;
+    position:absolute;
+}
+#invitations_history{
+    margin-top:40px;
+    margin-left:40px;
+    height:450px;
+    width:550px;
+    padding:20px;
+    background-color:white;
+    box-shadow: -1px 1px 2px 1px #aaaaaa;
+    float:left;
+    border-radius:10px;
+    overflow-y:scroll;
+}
+/* tutorial tab =============================================================== */
+
+#tutorial_tab{
+    overflow:hidden;
+    position:absolute;
+    margin-left:230px;
+    margin-top:80px;
+}
+
+#article_scroll{
+    overflow-y:scroll;
+    height:100%;
+}
+
+article{
+    padding:20px;
+    color:#222222;
+    background-color:white;
+    border-radius:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+    box-shadow: -2px 2px 3px 2px #AAAAAA;
+}
+
+article ul{
+    margin-left:40px;
+}
+
+article p, li{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+h3{
+    color:#0faf1e;
+}

@@ -1,0 +1,238 @@
+ερρ/* initialize parameters */
+p,h1,h1,h2,h4,h5,h6,body,article,section,header{
+    margin:0;
+    padding:0;
+}
+*{
+   font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+
+body{
+   
+    height:100%;
+    width:100%;
+    background-color:#008844;
+}
+
+header{
+    background-color:#008844;
+    height:45px;
+    position:relative;
+    box-shadow: 0px 1px 3px black;
+    z-index:1;
+    width:100%;
+}
+#inline_img_1{
+    float:left;
+    margin-left:20px;
+    margin-top:9px;
+    width:28px;
+    height:28px;
+    background:url('../Images/Logo.png');
+}
+#inline_img_2{
+    float:left;
+    width:142px;
+    height:28px;
+    margin-left:5px;
+    margin-top:9px;
+    background:url('../Images/appName.png');
+}
+#logo{
+    margin-left:20px;
+    margin-top:10px;
+    color:white;
+    float:left;
+}
+
+#main_container{
+    
+    background: url('../Images/desk_dark2.jpg');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    width:100%;
+}
+
+.big_padding{
+    padding-top:150px;
+}
+.small_padding{
+    padding-top:50px;
+}
+#center_container{
+    margin-top:30px;
+    height:100%;
+    width:850px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#welcome_panel{
+    float:left;
+    width:440px;
+    height:320px;
+    background-color:white;
+    border-radius:5px;
+    padding:30px;
+    font-size: 14pt;
+    color:#222222;
+    text-align: center;
+    box-shadow: 1px 1px 4px black;
+}
+
+#login_panel{
+    float:right;
+    background-color:white;
+    width: 300px;
+    height:320px;
+    border-radius:5px;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-size: 14pt;
+    color:#222222;
+    text-align: center;
+    box-shadow: 1px 1px 4px black;
+}
+
+#error_panel{
+    width:440px;
+    height:320px;
+    background-color:white;
+    border-radius:5px;
+    padding:20px;
+    font-size: 14pt;
+    color:#222222;
+    text-align: center;
+    box-shadow: 1px 1px 4px black;
+}
+
+.largeText{
+    margin-top:0px;
+    font-size:18pt;
+    text-align:center;
+    font-weight:bold;
+    color:#006644;
+    margin-bottom:20px;
+}
+#login_form{
+    text-align: center;
+    background-color:#FFFFFF;
+    width:300px;
+    padding-top:5px;
+    padding-bottom:10px;
+    font-size: 14pt;
+}
+#new_account_link{
+    text-decoration:none;
+    color:#008844;
+}
+#new_account_link:hover{
+    color:#00AA55;
+}
+input{
+    height:20px;
+    width:200px;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: #666666;
+    border-width:1px;
+    font-size: 14pt;
+    margin-top:5px;
+}
+input:focus{
+    border-color: #00AA55;
+    box-shadow: 0px 0px 1px #00AA55;
+}
+p{
+    margin-top:5px;
+}
+
+#signInButton{
+    height:35px;
+    width:100px;
+    border-radius:0px;
+    border-style: none;
+    background-color:#008844;
+    font-size: 14pt;
+    color:white;
+}
+#signInButton:hover{
+   background-color:#00AA55;
+}
+footer{
+    text-align: center;
+    height:90px;
+    width:100%;
+    padding-top:10px;
+    color:white;
+    background-color:#333333;
+}
+
+/* account_screen_expanded_style =================================================== */
+#account_panel{
+    background-color:white;
+    width: 500px;
+    height:660px;
+    border-radius:5px;
+    margin-top:-30px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size: 14pt;
+    color:#222222;
+    text-align: center;
+    box-shadow: 1px 1px 4px black;
+}
+#account_panel_error{
+    background-color:white;
+    width: 500px;
+    height:700px;
+    border-radius:5px;
+    margin-top:-30px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size: 14pt;
+    color:#222222;
+    text-align: center;
+    box-shadow: 1px 1px 4px black;
+}
+
+#account_form{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-40px;
+}
+
+#create_account_button{
+    height:45px;
+    width:200px;
+    border-radius: 0px;
+    border-style: none;
+    background-color:#008844;
+    font-size: 14pt;
+    color:white;
+}
+#create_account_button:hover{
+    background-color:#00AA55;
+}
+.error_message{
+    margin-top:-5px;
+    margin-bottom:5px;
+    color:red;
+    font-size:12pt;
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */      
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+}
+
+.error_title{
+     margin-top:0px;
+    font-size:18pt;
+    text-align:center;
+    font-weight:bold;
+    color:red;
+}
