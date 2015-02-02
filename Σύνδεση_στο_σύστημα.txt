@@ -1,0 +1,10 @@
+﻿Για σύνδεση στο σύστημα 
+
+Ως project manager :
+	username : manager
+	password : manager
+Ως project_member :
+	username : user
+	password : user
+
+Ανοίξτε το project με τίτλο Store App
